@@ -1,0 +1,43 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+  }
+
+.Space{
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+
+.Mahmoud-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Mah{
+  position: relative;
+  top: -85px;
+}
+.Rainbow {
+  text-align: center;
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
